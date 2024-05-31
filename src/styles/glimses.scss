@@ -1,0 +1,59 @@
+.glimse {
+    flex-direction: column;
+  
+    h1 {
+      padding-left: 3.7rem;
+      padding-top: 0.3rem; 
+    }
+  
+    p {
+      padding-left: 3.9rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    .upper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem; 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+    }
+  
+    .upper img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: attr(width) / 1;
+    }
+  
+    .image-container {
+      height: 40vh;
+    }
+  
+    .lower {
+      padding-top: -0.4rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem; 
+      padding-left: 1rem; 
+      padding-right: 1rem; 
+    }
+  
+    .lower img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: attr(width) / 1;
+    }
+  
+    .image-container2 {
+      height: 40vh;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .upper,
+    .lower {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

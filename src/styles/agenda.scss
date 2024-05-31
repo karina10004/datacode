@@ -1,0 +1,40 @@
+.agenda {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%; 
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      font-size: x-large;
+    }
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: hsl(234, 100%, 90%);
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .midcol {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .bordergiven {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+  }

@@ -1,0 +1,28 @@
+    .faq {
+      width: 50%;
+      margin: auto;
+    }
+    .faq-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .faq-item {
+      margin: 10px 0;
+    }
+    .faq-question {
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+    }
+    .faq-answer {
+      display: none;
+      padding: 10px;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+    }
+    .faq-answer.show {
+      display: block;
+    }
